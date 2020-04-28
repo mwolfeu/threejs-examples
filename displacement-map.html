@@ -82,8 +82,8 @@ var onDMLoaded = function (texture) {
 
 // https://neo.sci.gsfc.nasa.gov/view.php?datasetId=GEBCO_BATHY
 // GEBCO (General Bathymetric Chart of the Oceans) (NASA)
-var texture = new THREE.TextureLoader().load("assets/worldAvgHeat.color.png", onDMLoaded);
-var dm = new THREE.TextureLoader().load("assets/worldAvgHeat.-25cTO45c.dec2001.final.png"); // greyscale
+var texture = new THREE.TextureLoader().load("assets/worldAvgHeat.color.png");
+var dm = new THREE.TextureLoader().load("assets/worldAvgHeat.-25cTO45c.dec2001.final.png", onDMLoaded); // greyscale
 // getting depth map pixel info
 
 
