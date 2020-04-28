@@ -1,0 +1,43 @@
+LINKS:
+https://www.youtube.com/watch?v=uD4GnMsAH1U
+https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
+https://threejsfundamentals.org/threejs/lessons/threejs-custom-buffergeometry.html
+Raycast Draw on texture https://threejs.org/examples/webgl_raycast_texture.html
+Labels attached to moving objects: https://github.com/mrdoob/three.js/blob/master/examples/css2d_label.html
+
+
+Changes to colors or verts need update = true
+An object is combined arrays of: position, normal, color, uv
+
+GEOMETRY:
+UVs = XYs for textures to vertexes mapping
+Normals: Vectors for lighting.  face==boxy vector==rounded look
+Quaternion: Curved rotation vector
+Basic shapes: box, plane, sphere, cylinder
+Parametric - good for graphs. Geometry is created from function?
+Displacement map - alters vectors from grayscale image
+    https://www.youtube.com/watch?v=-U8VoJusPhs&t=37s
+    https://sbcode.net/threejs/displacmentmap/
+
+
+
+MATERIALS:
+You can add a shader as a material.  Shader effect is limited to chosen faces.
+Phong - shiny
+Lambert - matte
+Sprite - image always facing camera
+others
+
+
+
+TWO PROGS:
+colored parametric curve w billboard at pointer
+
+textured displacement with spheres hovering, raycast billboard at pointer on sphere
+
+
+
+
+
+
+
