@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Displacement Test</title>
+		<title>Displacement Test - Avg Temp Dec 2001</title>
 		<style>
 			body { margin: 0; }
 			canvas { display: block; }
@@ -240,7 +240,7 @@ var animate = function () {
         winPopup.innerHTML =
             "Lat: " + lat.toPrecision(4) 
             + " Lon: " + lon.toPrecision(4) 
-            + " Temp: " + map(pixelData[0], 0, 255, -25, 45).toPrecision(3) + "C";
+            + "<br>Avg. Dec 2001 Temp: " + map(pixelData[0], 0, 255, -25, 45).toPrecision(3) + "C";
 
         // rotate pointer vector - how?
         var iPoint = intersection.point;
