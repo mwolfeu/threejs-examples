@@ -14,7 +14,7 @@
                 position: absolute;
 			}
 			#legend-label {
-                top: 10; 
+                top: 10;
                 left:10;
                 height: 92px;
                 width: 362px;
@@ -57,7 +57,7 @@ scene.add(light);
 
 // camera
 var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
-camera.position.z = 3
+camera.position.z = 3 
 
 // renderer
 var renderer = new THREE.WebGLRenderer()
@@ -234,12 +234,12 @@ var animate = function () {
         // It controls the visibility of popup
         if (pixelData[0] != 1)
             winPopup.style.display = "block";
-        else 
+        else
             winPopup.style.display = "none";
 
         winPopup.innerHTML =
-            "Lat: " + lat.toPrecision(4) 
-            + " Lon: " + lon.toPrecision(4) 
+            "Lat: " + lat.toPrecision(4)
+            + " Lon: " + lon.toPrecision(4)
             + "<br>Avg. Dec 2001 Temp: " + map(pixelData[0], 0, 255, -25, 45).toPrecision(3) + "C";
 
         // rotate pointer vector - how?
